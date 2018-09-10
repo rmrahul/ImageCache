@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIImageView {
-    func setURL(_ imgURLString: String?) {
+    public func setURL(_ imgURLString: String?) {
         guard let imageURLString = imgURLString,let url = URL(string: imageURLString) else {
             self.image = UIImage(named: "Default")
             return
