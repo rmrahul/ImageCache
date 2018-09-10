@@ -13,9 +13,9 @@ class ImageCache {
     private var images = [String:UIImage]()
     
     private init() {
-        NotificationCenter.default.addObserver(forName: Notification.Name.UIApplicationDidReceiveMemoryWarning, object: nil, queue: .main) { [weak self] notification in
-            self?.images.removeAll(keepingCapacity: false)
-        }
+//        NotificationCenter.default.addObserver(forName: Notification.Name.UIApplicationDidReceiveMemoryWarning, object: nil, queue: .main) { [weak self] notification in
+//            self?.images.removeAll(keepingCapacity: false)
+//        }
     }
     
     deinit {
