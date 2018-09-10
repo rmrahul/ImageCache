@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ImageCache {
+open class ImageCache {
     static let shared = ImageCache()
     private var images = [String:UIImage]()
     
