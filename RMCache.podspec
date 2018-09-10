@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RMCache"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "RMChache will help to cache everything. Currently It's cache only images though"
 
   # This description is used to generate tags and improve search results.

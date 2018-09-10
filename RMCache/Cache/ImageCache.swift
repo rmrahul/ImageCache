@@ -3,7 +3,7 @@
 //  Ouch
 //
 //  Created by Developer 07/09/18 .
-//  Copyright © 2018 Developer . All rights reserved.
+//   Copyright © 2018 Developer . All rights reserved.
 //
 
 import UIKit
